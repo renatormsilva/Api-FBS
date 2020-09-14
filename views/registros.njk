@@ -11,14 +11,19 @@
 <body>
     <header>
         <div class="links">
-            <a href="cadastrar.html">Cadastrar</a>
-            <a id = "lista" href="">Lista de cadastros</a>
+            <a href="cadastrar">Cadastrar</a>
+            <a id = "lista">Lista de cadastros</a>
         </div>
     </header>
     <div class="show">
-        <h1 id = "descricao" >Nome: name= name  </h1> 
-        <h2 id = "descricao">Email:</h2>
-        <h3 id = "descricao">Endereço:</h3>
+        <h1 id = "descricao" >Nome: {{ name }} </h1> 
+        <h2 id = "descricao">Email: {{ email}}</h2>
+        <h3 id = "descricao">Endereço: {{ address }}</h3>
+        <div class="msg">
+            <a href="cadastrar">Cadastrar novamente</a>
+        </div>
     </div>
+
+    
 </body>
 </html>

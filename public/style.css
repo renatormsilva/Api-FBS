@@ -47,4 +47,19 @@ header{
 #cad,
 #lista{
     border-bottom: 1px solid white;
+
 }
+
+#lista {
+    color:#FF8C00;
+    text-decoration: none;
+}
+
+.changeColor {
+    color: #FF8C00;
+}
+
+.msg a {
+    
+    color:  #FF8C00;
+    font-size: 19px;
